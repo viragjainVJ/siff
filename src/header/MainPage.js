@@ -13,7 +13,23 @@ import Footer from '../footer/Footer';
 export default function () {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  
+  
+  window.onscroll = function() {scrollFunction()};
 
+  function scrollFunction() {
+    let mybutton = document.getElementById("myBtn");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 
   const toggleNav = () => {
     setToggleMenu(!toggleMenu)
@@ -46,6 +62,7 @@ export default function () {
                   <Route path="/write-articles"  element={<WriteArticles/>}></Route>
               </Routes>
               <Footer />
+              <button onClick={() => topFunction()} id="myBtn" title="Go to top">Top</button>
           </Router>
       </div>
     
