@@ -1,0 +1,380 @@
+{
+  "Zone": {
+    "North": {
+      "Zone Specific": {
+        "FC": [{
+          "Name": "Abhay",
+          "Contact": 9993306708
+        }, {
+          "Name": "Abhishek Pandey",
+          "Contact": 9425825137
+        }, {
+          "Name": "Amit Arora",
+          "Contact": 9212225525
+        }, {
+          "Name": "Amrit Goyal",
+          "Contact": 9560085375
+        }, {
+          "Name": "Ashutosh Agarwal",
+          "Contact": 9045250025
+        }, {
+          "Name": "Manish Kumar",
+          "Contact": 8800879764
+        }, {
+          "Name": "Nitin Sharma",
+          "Contact": 8527579720
+        }, {
+          "Name": "Pradeep Tiwari",
+          "Contact": 7999319106
+        }],
+        "Coordinator": [{
+          "Name": "Jai Dutt Sharma",
+          "Contact": 7386077376
+        }]
+      },
+      "Uttar Pradesh": {
+        "FC": [{
+          "Name": "Azad Singh",
+          "Contact": 8864815741
+        }, {
+          "Name": "Ranjeet Singh",
+          "Contact": 8527878811
+        }, {
+          "Name": "Ritesh Saxena",
+          "Contact": 9879207507
+        }, {
+          "Name": "Sushil Sukla",
+          "Contact": 9779929898
+        }],
+        "Coordinator": [{
+          "Name": "Jai Dutt Sharma",
+          "Contact": 7386077376
+        }]
+      },
+      "Delhi NCR": {
+        "FC": [{
+          "Name": "Vipul Jain",
+          "Contact": 9891053367
+        }, {
+          "Name": "Raj Talwar",
+          "Contact": 9873679009
+        }, {
+          "Name": "Majid Khan",
+          "Contact": 9899078627
+        }, {
+          "Name": "Amit Dalodiya",
+          "Contact": 9599120386
+        }, {
+          "Name": "Ankit Jhamb",
+          "Contact": 9812432096
+        }, {
+          "Name": "Himanshu Saxena",
+          "Contact": 9911789139
+        }, {
+          "Name": "Iqbal khan",
+          "Contact": 9810247909
+        }, {
+          "Name": "Lalit Mohan",
+          "Contact": 9582615530
+        }, {
+          "Name": "Pankaj",
+          "Contact": 8860556616
+        }, {
+          "Name": "Rahul",
+          "Contact": 9650589854
+        }],
+        "Coordinator": [{
+          "Name": "Manish sindwani",
+          "Contact": 9811550762
+        }]
+      },
+      "Punjab, Haryana, Himachal": {
+        "FC": [{
+          "Name": "Manish Jain",
+          "Contact": 9034175040
+        }, {
+          "Name": "Ravinder Chandigarh",
+          "Contact": 7814707238
+        }, {
+          "Name": "Gurpreet Singh",
+          "Contact": 9888306474
+        }, {
+          "Name": "Sushil Pahwa",
+          "Contact": 7014742507
+        }, {
+          "Name": "Gurvinder",
+          "Contact": 9716023806
+        }, {
+          "Name": "Sushil ludhiana",
+          "Contact": 7696902975
+        }],
+        "Coordinator": [{
+          "Name": "Vikram Bisyar",
+          "Contact": 9650458787
+        }, {
+          "Name": "Sushil ludhiana",
+          "Contact": 7696902975
+        }]
+      }
+    },
+    "West": {
+      "Mumbai": {
+        "FC": [],
+        "Coordinator": []
+      },
+      "Pune": {
+        "FC": [],
+        "Coordinator": []
+      },
+      "Maharastra": {
+        "FC": [],
+        "Coordinator": []
+      },
+      "Gujarat": {
+        "FC": [],
+        "Coordinator": []
+      },
+      "Madhya Pradesh": {
+        "FC": [],
+        "Coordinator": []
+      }
+    },
+    "East": {
+      "Zone Specific": {
+        "FC": [],
+        "Coordinator": []
+      }
+    },
+    "South": {
+      "Bangalore": {
+        "FC": [],
+        "Coordinator": []
+      },
+      "Hyderabad & Telangana": {
+        "FC": [],
+        "Coordinator": []
+      },
+      "Andhra Pradesh": {
+        "FC": [],
+        "Coordinator": []
+      },
+      "Kerala, Tamil Naidu": {
+        "FC": [],
+        "Coordinator": []
+      },
+      "Zone Specific": {
+        "FC": [],
+        "Coordinator": []
+      }
+    }
+    
+  },
+  "SIFFMembers": [
+    {
+      "Name": "Jai Dutt Sharma",
+      "Contact": 7386077376,
+      "Type": ["Coordinator"],
+      "Zone": "North",
+      "Location": "Uttar Pradesh"
+    }, {
+      "Name": "Azad Singh",
+      "Contact": 8864815741,
+      "Type": ["FC"],
+      "Zone": "North",
+      "Location": "Uttar Pradesh"
+    }, {
+      "Name": "Ranjeet Singh",
+      "Contact": 8527878811,
+      "Type": ["FC"],
+      "Zone": "North",
+      "Location": "Uttar Pradesh"
+    }, {
+      "Name": "Ritesh Saxena",
+      "Contact": 9879207507,
+      "Type": ["FC"],
+      "Zone": "North",
+      "Location": "Uttar Pradesh"
+    }, {
+      "Name": "Sushil Sukla",
+      "Contact": 9779929898,
+      "Type": ["FC"],
+      "Zone": "North",
+      "Location": "Uttar Pradesh"
+    }, {
+      "Name": "Sharath Rao",
+      "Contact": 8108555335,
+      "Type": ["FC"],
+      "Zone": "West",
+      "Location": "Mumbai"
+    }, {
+      "Name": "Nikunj",
+      "Contact": 9820281117,
+      "Type": ["FC"],
+      "Zone": "West",
+      "Location": "Mumbai"
+    }, {
+      "Name": "Akshat",
+      "Contact": 9920699926,
+      "Type": ["FC", "Coordinator"],
+      "Zone": "West",
+      "Location": "Mumbai"
+    }, {
+      "Name": "Manish Sahani",
+      "Contact": 9920084452,
+      "Type": ["FC"],
+      "Zone": "West",
+      "Location": "Mumbai"
+    }, {
+      "Name": "Rakesh kumar",
+      "Contact": 9475804418,
+      "Type": ["FC"],
+      "Zone": "West",
+      "Location": "Mumbai"
+    }, {
+      "Name": "Siva Palappan",
+      "Contact": 7303984640,
+      "Type": ["FC"],
+      "Zone": "West",
+      "Location": "Mumbai"
+    }, {
+      "Name": "Aakash Sahu",
+      "Contact": 9833222806,
+      "Type": ["FC", "Coordinator"],
+      "Zone": "West",
+      "Location": "Mumbai"
+    }, {
+      "Name": "Jai Prakash",
+      "Contact": 9769397657,
+      "Type": ["FC"],
+      "Zone": "West",
+      "Location": "Mumbai"
+    }, {
+      "Name": "Vivek Moharle",
+      "Contact": 9921212116,
+      "Type": ["FC"],
+      "Zone": "West",
+      "Location": "Pune"
+    }, {
+      "Name": "Jitendra Bhamre",
+      "Contact": 9594995705,
+      "Type": ["FC"],
+      "Zone": "West",
+      "Location": "Pune"
+    }, {
+      "Name": "Ajit Kumar",
+      "Contact": 9096970750,
+      "Type": ["FC", "Coordinator"],
+      "Zone": "West",
+      "Location": "Pune"
+    }, {
+      "Name": "Sameer Goel",
+      "Contact": 8888714464,
+      "Type": ["FC", "Coordinator"],
+      "Zone": "West",
+      "Location": "Pune"
+    }, {
+      "Name": "Vivek Pote",
+      "Contact": 7219701703,
+      "Type": ["FC"],
+      "Zone": "West",
+      "Location": "Pune"
+    }, {
+      "Name": "Annirudh Dey",
+      "Contact": 9429894061,
+      "Type": ["FC"],
+      "Zone": "East",
+      "Location": ""
+    }, {
+      "Name": "Ashish Kumar Tiwari",
+      "Contact": 9804628358,
+      "Type": ["FC"],
+      "Zone": "East",
+      "Location": ""
+    }, {
+      "Name": "Ankit Sinha",
+      "Contact": 7004937164,
+      "Type": ["Coordinator"],
+      "Zone": "East",
+      "Location": ""
+    }
+  ],
+  "NRIContacts": {
+    "USA/Canada": {
+      "FC": [
+        {
+          "Name": "Mayuresh",
+          "Contact": "+1-973-906-4126"
+        },
+        {
+          "Name": "Wasim",
+          "Contact": "+1-502-902-1060"
+        },
+        {
+          "Name": "Shashikant",
+          "Contact": "+1 (737) 781-6808"
+        },
+        {
+          "Name": "Deepak Malani",
+          "Contact": "+1 (312) 316-7381"
+        },
+        {
+          "Name": "Arpit Agarwal",
+          "Contact": "+1 (347) 277-3021"
+        },
+        {
+          "Name": "Tarun Khanna",
+          "Contact": "+1 (416) 986-3030"
+        }
+      ],
+      "Coordinator": []
+    },
+    "UK": {
+      "FC": [
+        {
+          "Name": "Kalpak",
+          "Contact": "+44 7367 270619"
+        },
+        {
+          "Name": "Mangesh",
+          "Contact": "+44 7451 483082"
+        },
+        {
+          "Name": "Rishi Shankar",
+          "Contact": "+44 7448 021270"
+        }
+      ],
+      "Coordinator": []
+    }, 
+    "Germany": {
+      "FC": [
+        {
+          "Name": "Kiran",
+          "Contact": "+49 1766 3301886"
+        }
+      ],
+      "Coordinator": []
+    }, 
+    "Gulf Countries": {
+      "FC": [
+        {
+          "Name": "Vara Prasad",
+          "Contact": "+971 54 7439048"
+        },
+        {
+          "Name": "Ravi Mukhiya",
+          "Contact": "+97333969338"
+        }
+      ],
+      "Coordinator": []
+    },
+    "Australia": {
+      "FC": [
+        {
+          "Name": "Tarun",
+          "Contact": "+61-490-124-056"
+        }
+      ],
+      "Coordinator": []
+    } 
+  }
+}

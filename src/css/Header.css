@@ -1,0 +1,142 @@
+.textBold {
+    font-weight: bold;
+}
+
+.Telegram-Header {
+    padding: 5px 10px 5px 50px;
+    text-align: justify;
+}
+
+.footer {
+    height: 12.5rem;
+    width: 100%;
+    background-color: skyblue;
+    bottom: 0;
+    position: absolute;
+   
+}
+
+.footer-ul {
+    list-style-type: none;
+}
+
+.MainPage {
+    position: relative;
+    min-height: 100vh;
+}
+.footer-div{
+    width: 80%;
+    margin: auto;
+    border: none;
+    
+}
+.footer-table {
+    border-collapse: none;
+}
+
+.social_media_head{
+    display: flex;
+    align-items: center;
+}
+
+.social_media_icon {
+    height: 50px;
+    margin: 0 10px;
+}
+
+.social-media-a{
+    
+}
+
+.social-media-div{
+    margin: auto;
+    align-items: center;
+
+}
+
+.followUs{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.footer-tr{
+    
+}
+
+.footer-td{
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.responsive-table-footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    position: relative;
+  }
+  .responsive-table-footer thead {
+    visibility: visible;
+    background: #fafafa;
+  }
+  @media screen and (max-width: 600px) {
+    .responsive-table-footer thead {
+      visibility: hidden;
+      display: none;
+   }
+   .footer{
+       height: 28rem;
+   }
+  }
+  .responsive-table-footer tr {
+    padding: 5px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  @media screen and (min-width: 600px) {
+    .responsive-table-footer tr {
+      display: table-row;
+      margin-bottom: 0;
+   }
+    .responsive-table-footer tr:nth-child(even) {
+      background: #fafafa;
+   }
+  }
+  .responsive-table-footer th, .responsive-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  .responsive-table-footer th {
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  .responsive-table-footer td {
+    display: block;
+    text-align: left;
+    font-size: 13px;
+  }
+  .responsive-table-footer td:last-child {
+    border-bottom: none;
+  }
+  @media screen and (min-width: 600px) {
+    .responsive-table-footer td {
+      display: table-cell;
+      text-align: left;
+      font-size: 14px;
+      border-bottom: none;
+   }
+  }
+  .responsive-table-footer td:before {
+    content: attr(data-label);
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  @media screen and (min-width: 600px) {
+    .responsive-table-footer td:before {
+      content: "";
+      display: none;
+   }
+  }
