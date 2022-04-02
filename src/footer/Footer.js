@@ -6,7 +6,6 @@ import Facebook from '../images/facebook.png';
 import Twitter from '../images/twitter.png';
 import YouTube from '../images/youtube.png';
 import Telegram from '../images/telegram.png';
-import WhatsApp from '../images/whatsapp.png';
 
 const Footer = () => {
     const MenuItem = () => {

@@ -30,33 +30,29 @@ class DirectionCard extends React.Component {
             }
           }
     }
-     renderArticle = (key) => {
-        return (
-          <div className="column">
-            <Article key={key} index={key} details={this.state.articles[key]} openTab={this.props.openTab}/>
-          </div>
-        )
-      }
+    renderArticle = (key) => {
+      return (
+        <div className="column">
+          <Article key={key} index={key} details={this.state.articles[key]} openTab={this.props.openTab}/>
+        </div>
+      )
+    }
 
-      render() {
-        return (
-          <div className="app">
-            <div className="container">
-              {Object.keys(this.state.articles).map(this.renderArticle)}
-            </div>
+    render() {
+      return (
+        <div className="app">
+          <div className="container">
+            {Object.keys(this.state.articles).map(this.renderArticle)}
           </div>
-        )
-      }
+        </div>
+      )
+    }
 }
   /*
     Article
     <Article />
   */
  class Article extends React.Component {
-     openPage = (value) => {
-         
-         alert('HI' + value);
-     }
      render() {
         var details = this.props.details,
 

@@ -3,7 +3,6 @@ import '../css/main.css';
 import contactDetails from '../data/contact.json';
 import DirectionCard from '../cards/DirectionCard';
 import NRIContactsCard from '../cards/NRIContactsCard';
-import WelcomeCard from '../cards/WelcomeCard';
 import TableComponent from './common/TableComponent';
 import ZoneCard from '../cards/ZoneCard';
 
@@ -12,6 +11,7 @@ const Helpline = () => {
     
     const openTab = (value) => {
         setData(value);
+        document.getElementById("zone_card_1").scrollIntoView();
     }
 
     return (
@@ -26,13 +26,12 @@ const Helpline = () => {
                 <h3>**Note: Take an appointment with them over message before calling**</h3>
             </div>
 
-            
-                <DirectionCard openTab={openTab}/>
-          
-            {data ? <ZoneCard zone={data.split(' ')[0]}/>: ''}
-            
-                <NRIContactsCard />
-            
+            <DirectionCard openTab={openTab}/>
+            <div id="zone_card_1">
+                {data ? <ZoneCard id="zone_card" zone={data.split(' ')[0]}/>: ''}
+            </div>
+            <NRIContactsCard />
+
             <div>
                 <p>
                 Want to be an activist? Want to do propaganda and protests? 
@@ -42,9 +41,9 @@ const Helpline = () => {
                 </p>
                 <div>
                     Please contact the below:
-                    <table>
+                    <div className='contact-table'>
                         <TableComponent contactDetails={contactDetails}/>
-                    </table>
+                    </div>
                 </div>
 
 
