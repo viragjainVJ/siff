@@ -1,5 +1,7 @@
 .helpline-header {
     text-align: center;
+    margin: 0;
+    padding: 20px;
 }
 
 .helpline-head{
@@ -9,6 +11,7 @@
 
 .content-wrap {
     padding-bottom: 14.5rem;
+    background-color: ghostwhite;
 }
 
 .table-grid {
@@ -105,16 +108,49 @@
 .contact-table{
     width: 300px;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 0.7fr;
+}
+
+.left_wing{
+    padding-right: 40px;
+}
+
+.right_wing{
+    
+}
+.social_right_wing_icon {
+    display: flex;
+    margin: 20px 0;
+}
 @media screen and (max-width: 600px) {
     .faq-page {
       padding: 50px 30px 0 30px;
    }
    .content-wrap {
-        padding-bottom: 30rem;
+        padding-bottom: 40rem;
     }
     .contact-table{
         width: 80%;
     }
+    .right_wing{
+        display: none;
+    }
+    .social_right_wing_icon{
+        display: grid;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .wrapper {
+        grid-template-columns: auto;
+    }
+    .left_wing{
+        padding-right: 0;
+    }
+
   }
 
 .question{
@@ -147,4 +183,13 @@
 }
 .seek-help{
     font-size: 18px;
+}
+
+
+
+.social_right_wing {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
 }

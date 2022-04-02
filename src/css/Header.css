@@ -87,7 +87,10 @@
       display: none;
    }
    .footer{
-       height: 28rem;
+       height: 38rem;
+   }
+   .social_media_head{
+     display: grid;
    }
   }
   .responsive-table-footer tr {
