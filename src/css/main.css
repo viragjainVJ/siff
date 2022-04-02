@@ -136,10 +136,13 @@
         width: 80%;
     }
     .right_wing{
-        display: none;
+        /* display: none; */
     }
     .social_right_wing_icon{
         display: grid;
+    }
+    .social_right_wing {
+        display: none;
     }
   }
 
