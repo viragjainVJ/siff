@@ -217,3 +217,64 @@
   #myBtn:hover {
     background-color: #555;
   }
+.youtube_view{
+  background-color: 	#B0C4DE;
+  margin: 30px 10px;
+  padding-bottom: 10px;
+}
+
+.youtube_heading{
+  text-align: center;
+  height: 80px;
+  position: relative;
+  border-bottom: solid 2px red;
+}
+
+.youtube_heading img{
+  height: 100%;
+  margin: 0;
+}
+
+.youtube_player{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  position: relative;
+  overflow: auto;
+  height: 180px;
+}
+
+.youtube_column{
+  flex-basis: 30%;
+  width: 30%;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: solid 2px yellow;
+  box-shadow: 5px 5px lightblue;
+}
+
+@media (max-width: 1000px) {
+  .youtube_column {
+    flex-basis: 45%;
+    width: 45%;
+    margin: 10px auto;
+ }
+ .youtube_view{
+  margin: 30px 10px;
+}
+}
+@media (max-width: 600px) {
+  .youtube_column {
+    flex-basis: 90%;
+    width: 90%;
+ }
+ .youtube_player{
+  height: 360px;
+}
+.youtube_view{
+  margin: 30px 10px;
+}
+}
