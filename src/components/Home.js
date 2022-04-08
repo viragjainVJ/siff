@@ -6,6 +6,7 @@ import SlideShowBanner from './common/SlideShow';
 import SocialMedias from './common/SocialMedias';
 import TwitterCard from './common/TwitterCard';
 import YoutubeView from './common/YoutubeView';
+import Articles from './common/Articles';
 
 
 const Home = () => {
@@ -20,8 +21,8 @@ const Home = () => {
                             <p>To  seek  free  help and support from  SIFF Counselors  &  to  talk to  our  Media Spokespersons, please click the <a href='https://chat.whatsapp.com/LaVQYNAjPI8Cg2KRvbUjZh'><img className='whatsapp' src={Whatsapp} alt="Whatsapp"></img> WhatsApp Link</a> here. </p>
                             <p>SIFF काउंसलर्स से मुफ्त में मदद लेने के लिए और हमारे मीडिया प्रवक्ताओं से बात करने के लिए, कृपया यहाँ <a href='https://chat.whatsapp.com/LaVQYNAjPI8Cg2KRvbUjZh'><img className='whatsapp' src={Whatsapp} alt="Whatsapp"></img> व्हाट्सएप लिंक</a> पर क्लिक करें।</p>
                         </div>
-                        <YoutubeView />
-                        <WorkProgress />
+                        {/* <YoutubeView /> */}
+                        <Articles />
                     </div>
                     <div className='right_wing'>
                         <div className='social_right_wing'>
@@ -32,7 +33,9 @@ const Home = () => {
                             
                         </div>
                         <TwitterCard />
+                        <YoutubeView />
                     </div>
+                    
                 </div>
             </div>
         </div>
